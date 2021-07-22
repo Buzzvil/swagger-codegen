@@ -15,7 +15,7 @@
 
     <build>
     <directory>target</directory>
-        <finalName>${project.artifactId}-${project.version}</finalName>
+        <finalName>${project.artifactId}-${project.version}-buzzvil.1</finalName>
         <defaultGoal>install</defaultGoal>
         <resources>
             <resource>

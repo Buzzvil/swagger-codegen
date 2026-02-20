@@ -162,7 +162,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Setup Scala
-        uses: olafurpg/setup-scala@v10
+        uses: olafurpg/setup-scala@ec8caf122da82cba888a98a82ec3675162b6f1fb  # v10
         with:
           java-version: "adopt@1.8"
     ###############################################

@@ -141,7 +141,7 @@ jobs:
           name: test-cfg-files
           path: generated/SwaggerClient-php/${{ env.JOB_NAME }}
       - name: Setup PHP with composer v2
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@d59004228537ca90c8dca680592a08a675bf52b6  # v2
         with:
           php-version: '7.4'
           tools: composer:v2

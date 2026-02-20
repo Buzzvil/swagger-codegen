@@ -112,7 +112,7 @@ jobs:
       ###############################################
       ##### DYNAMIC: Dependent on build environment
       ###############################################
-      - uses: ada-actions/toolchain@dev
+      - uses: ada-actions/toolchain@d6c5b8a6e7d5205b96948c84f66a2d3fe3a24707  # dev
         with:
           distrib: fsf
           target: native

@@ -136,7 +136,7 @@ jobs:
     ##### DYNAMIC: Dependent on build environment
     ###############################################
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd  # v1
         with:
           ruby-version: ${{ matrix.ruby }}
       - uses: actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde  # v1
